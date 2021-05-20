@@ -1,5 +1,5 @@
 def number(n):
-    a = [int(d) for d in str(n)]
+    a = [int(d) for d in n]
     temp = 0
     for i in range(len(a)):
         # print(i)
