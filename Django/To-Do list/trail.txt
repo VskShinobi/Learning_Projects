@@ -1,0 +1,2 @@
+this is a django train project 
+name- to-do list webapp
