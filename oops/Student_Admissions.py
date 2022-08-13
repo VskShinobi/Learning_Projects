@@ -1,7 +1,7 @@
 class Student():
-    __student_id = None
-    __mark = None
-    __age = None
+    # __student_id = None
+    # __mark = None
+    # __age = None
 
     def __init__(self, student_id, mark, age):
         self.__student_id = student_id
@@ -42,17 +42,17 @@ class Student():
             return False
 
 
-Ram = Student(20, 70, 17)
-print(Ram.validate_marks())
-print(Ram.validate_age())
-print(Ram.Check_qualification())
-Ram.set_mark(int(input("The mark ")))
-print(Ram.validate_marks())
-print(Ram.validate_age())
-print(Ram.Check_qualification())
-print(Ram.get_mark())
-Ram.set_age(22)
-print(Ram.validate_marks())
-print(Ram.validate_age())
-print(Ram.Check_qualification())
-print(Ram.get_age())
+# Ram = Student(20, 70, 17)
+# print(Ram.validate_marks())
+# print(Ram.validate_age())
+# print(Ram.Check_qualification())
+# Ram.set_mark(int(input("The mark ")))
+# print(Ram.validate_marks())
+# print(Ram.validate_age())
+# print(Ram.Check_qualification())
+# print(Ram.get_mark())
+# Ram.set_age(22)
+# print(Ram.validate_marks())
+# print(Ram.validate_age())
+# print(Ram.Check_qualification())
+# print(Ram.get_age())
