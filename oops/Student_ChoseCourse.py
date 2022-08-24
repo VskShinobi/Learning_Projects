@@ -5,6 +5,7 @@ class Chosecourse(Student):
 
     def __init__(self, student_id, mark, age, fees, couse_id=1001):
         super().__init__(student_id, mark, age)
+        self.__mark = mark
         self.__course_id = couse_id
         self.__fees = fees
 
@@ -15,8 +16,8 @@ class Chosecourse(Student):
         print("**********************")
         if (self.__course_id == 1001) or (self.__course_id == 1002):
             print("**********************")
-            if (Student().self.__mark > 85):
-                Student.self.__fees = self.__fees - (self.__fees * (25/100))
+            if (self.__mark > 85):
+                self.__fees = self.__fees - (self.__fees * (25/100))
                 print(self.__fees)
 
             else:
@@ -25,7 +26,7 @@ class Chosecourse(Student):
             return False
 
 
-suresh = Chosecourse(10, 90, 20,  25575)
+suresh = Chosecourse(10, 50, 20,  25575)
 print(suresh.get_fees())
 suresh.choose_course()
 print(suresh.get_fees())
